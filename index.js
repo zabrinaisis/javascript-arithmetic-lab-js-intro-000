@@ -21,3 +21,11 @@ function increment(x) {
 function decrement(x) {
   return (x -= 1)
 }
+
+function makeInt(word) {
+  return (parseInt(word, 10))
+}
+
+function preserveDecimal(word) {
+  return (parseFloat(word))
+}

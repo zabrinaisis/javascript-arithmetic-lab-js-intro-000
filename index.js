@@ -3,7 +3,11 @@ function add(x, y) {
 }
 
 function subtract(x, y) {
-  return (y - x)
+  if (x <= y) {
+    return (y - x)
+  } else {
+    return ((-1)*(y - x))
+  }
 }
 
 function multiply(x, y) {

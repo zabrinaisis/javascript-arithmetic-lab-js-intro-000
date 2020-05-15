@@ -13,3 +13,11 @@ function multiply(x, y) {
 function divide(x, y) {
   return (x / y)
 }
+
+function increment(x) {
+  return (x += 1)
+}
+
+function decrement(x) {
+  return (x -= 1)
+}
